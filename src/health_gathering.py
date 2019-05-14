@@ -84,7 +84,7 @@ def main(parser, args, parameter_server=None):
         render_weapon=False,
         freelook=params.freelook,
         respawn_protect=False,
-        visible=params.visualize
+        # visible=params.visualize
     )
 
     # Network initialization and optional reloading
