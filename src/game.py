@@ -480,7 +480,7 @@ class Game(object):
             self.game.add_game_args(arg)
 
         # window visibility
-        self.game.set_window_visible(True)
+        self.game.set_window_visible(False)
 
         # available buttons
         self.mapping = add_buttons(self.game, self.action_builder.available_buttons)
